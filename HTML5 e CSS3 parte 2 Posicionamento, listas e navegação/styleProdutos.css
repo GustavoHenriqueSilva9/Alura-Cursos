@@ -23,3 +23,57 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+nav a:hover{
+    text-decoration: underline;
+    color: #C78C19;
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+.produtos li:hover{
+    border-color:#C78C19 ;
+}
+.produtos li:hover h2{
+    font-size: 40px;
+}
+.produtos li:active{
+    border-color: green;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+#produtoDescricao{
+    font-size: 18px;
+
+}
+footer{
+    padding: 40px 0;
+    text-align: center;
+    background: url(img/bg.jpg);
+}
+.copyright{
+    color: #ffffff;
+    font: 13px;
+    margin: 20px 0 0;
+    padding-bottom: 20px;
+}
