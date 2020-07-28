@@ -1,12 +1,42 @@
-body{
+#banner{
+    width: 100%;
+}
+.principal{
     background: #cccccc;
+    padding: 30px;
+}
+h1{
+    text-align: center;
 }
 .text{
     text-align: center
 }
-#titulo{
-    
+#missao{
+    font-size: 20px;
 }
 em strong{
     color: red;
 }
+.itens{
+    font-style: italic;
+}
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+ul{  /* CSS Alinha todos os elementos pela linha de baixo */
+   display: inline-block; 
+   vertical-align: top;
+   width: 20%;
+   margin-right: 15%;
+}
+.imgBeneficios{
+    width: 50%;
+}
+
+
+
+
