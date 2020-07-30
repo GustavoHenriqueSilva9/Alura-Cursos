@@ -5,11 +5,13 @@
 header{
     background: #bbbbbb;
     padding: 20px;
+    width: 100%;
 }
 .caixa{
     width: 940px;
     position: relative;
     margin:0 auto 0 auto;
+ 
 }
 nav{
     position: absolute;
